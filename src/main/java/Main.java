@@ -79,7 +79,7 @@ public class Main {
         }
         catch (IOException e) {
             // display stack trace if there was an error
-            e.printStackTrace();
+            System.out.println("ERROR: An unexpected error occurred");
         }
     }
 }
